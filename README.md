@@ -3,7 +3,7 @@
 ## Clone
 
 ```shell
-git clone https://github.com/albertogferrario/docker-wordpress.git /srv/wordpress && \
+git clone https://github.com/webfucktory/docker-wordpress.git /srv/wordpress && \
 cd /srv/wordpress
 ```
 
