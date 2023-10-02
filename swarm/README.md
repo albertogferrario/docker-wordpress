@@ -1,4 +1,4 @@
-# Docker Wordpress w/ Swarm
+# Swarm
 
 ## Create `.env`
 
