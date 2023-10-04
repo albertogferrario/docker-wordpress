@@ -6,8 +6,8 @@ services:
     restart: always
     environment:
       WORDPRESS_DB_HOST: mysql
-      WORDPRESS_DB_USER: wordpress
-      WORDPRESS_DB_PASSWORD: password
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: ceFwCs0VFtifya3F
       WORDPRESS_DB_NAME: wordpress
     networks:
       - mysql
@@ -42,8 +42,6 @@ services:
     hostname: mysql
     environment:
       MYSQL_DATABASE: wordpress
-      MYSQL_USER: wordpress
-      MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     networks:
       - mysql
