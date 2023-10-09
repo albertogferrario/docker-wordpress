@@ -1,15 +1,7 @@
-# Swarm
+# Local
 
-## Create `.env`
+[README.local.md](README.local.md)
 
-```shell
-cp example.env .env
-```
+# Remote
 
-## Create stack
-
-```shell
-export $(grep -v '^#' .env | xargs) && \
-docker stack deploy -c .yml wordpress
-```
-
+[README.remote.md](README.remote.md)

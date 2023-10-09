@@ -1,5 +1,3 @@
-# Docker WordPress
-
 ## Clone
 
 ```shell
@@ -18,4 +16,3 @@ cd swarm
 ```
 
 [swarm/README.md](swarm/README.md)
-
